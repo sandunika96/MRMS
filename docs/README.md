@@ -1,4 +1,3 @@
-
 ## LOGIN
 
 - [Quickstart local server](#quickstart-local-server) - Get a demo site running.
