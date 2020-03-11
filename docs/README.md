@@ -1,6 +1,6 @@
 # USER LOGIN
 
-![icon](_media/login.JPG)
+![icon](_media/home.JPG)
 
 Steps,
 
