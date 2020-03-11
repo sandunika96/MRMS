@@ -13,7 +13,7 @@ Steps,
 # METER READING AND MANAGEMENT
 ## Main Dashboard
 
-![icon](_media/home.JPG){ width: 200px; }
+![icon](_media/home.JPG)
 
 Main Dashboard includes,
 
