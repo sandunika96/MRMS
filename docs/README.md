@@ -1,6 +1,6 @@
 # USER LOGIN
 
-![icon](_media/home.JPG)
+![icon](_media/login.JPG)
 
 Steps,
 
@@ -13,7 +13,7 @@ Steps,
 # METER READING AND MANAGEMENT
 ## Main Dashboard
 
-![icon](_media/login.JPG)
+![icon](_media/home.JPG)
 
 Main Dashboard includes,
 
