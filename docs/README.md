@@ -30,7 +30,13 @@ Main Dashboard includes,
 ![icon](_media/menu-dashmain.jpg)
 
 Sidebar includes,
-A _Docsify_ doc site works works _without_ the need to edit your existing docs and _without_ building any HTML pages. The rendering is done on the client-side in a single page application, running on _index.html_.
+
+Sidebar includes,
+1.	Navigate to the Dashboard.
+2.	Navigate to the Edit Readings page.
+3.	Navigates to the Reports page.
+4.	Navigate to the customer view page.
+
 
 ### Struct sbsbsbsbs
 
