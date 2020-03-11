@@ -1,4 +1,7 @@
 # USER LOGIN
+
+![icon](_media/login.JPG)
+
 Steps,
 
 - Select the user type form the dropdown list. (Ex: AD User, System User)
