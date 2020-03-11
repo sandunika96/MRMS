@@ -5,7 +5,7 @@
 
 _Note: The instructions in this repo are intended for Linux and macOS environments._
 
-## Why _Docsify_?
+##  _Docsify_?
 
 My requirement is to build a docs site with minimal setup to use existing docs directories without restructuring or formatting the docs. I found _Docsify_ is ideal for this.
 
