@@ -31,7 +31,6 @@ Main Dashboard includes,
 
 Sidebar includes,
 
-Sidebar includes,
 1.	Navigate to the Dashboard.
 2.	Navigate to the Edit Readings page.
 3.	Navigates to the Reports page.
