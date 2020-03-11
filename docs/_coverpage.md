@@ -1,4 +1,4 @@
-![icon](_media/docs_face.png)
+![icon](_media/Ceylon-Electricity-Board.png)
 
 # MRMS USER MANUAL
 
