@@ -5,8 +5,7 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/docsify-template.svg)](https://GitHub.com/MichaelCurrin/docsify-template/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelCurrin/docsify-template/blob/master/LICENSE)
 
-Convert your docs folder into a pretty docs website using [Docsify-JS](https://docsify.js.org/) and some minimal setup instructions. This project's doc site itself is also running on _Docsify_.
-
+#LOGIN
 If you know what _Docsify_ is and want to start using it immediately, feel free to skip to one of these sections:
 
 - [Quickstart local server](#quickstart-local-server) - Get a demo site running.
