@@ -6,7 +6,6 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelCurrin/docsify-template/blob/master/LICENSE)
 
 #LOGIN
-If you know what _Docsify_ is and want to start using it immediately, feel free to skip to one of these sections:
 
 - [Quickstart local server](#quickstart-local-server) - Get a demo site running.
 - [Setup your own docs site](#setup-your-own-docs-site) - Convert your docs directory into a docs site hosted on Github pages. Uses templates files to get up and running with as little effort as possible.
