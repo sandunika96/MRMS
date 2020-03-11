@@ -1,9 +1,11 @@
-## LOGIN
+# USER LOGIN
+Steps,
 
-- [Quickstart local server](#quickstart-local-server) - Get a demo site running.
-- [Setup your own docs site](#setup-your-own-docs-site) - Convert your docs directory into a docs site hosted on Github pages. Uses templates files to get up and running with as little effort as possible.
+- Select the user type form the dropdown list. (Ex: AD User, System User)
+- Enter the user name.
+- Enter Password.
+- Click the Login button.
 
-_Note: The instructions in this repo are intended for Linux and macOS environments._
 
 ##  _Docsify_?
 
