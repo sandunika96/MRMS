@@ -20,7 +20,7 @@ You can use _Docsify_ with its defaults or very simple tweaks, yet get a UI with
 
 A _Docsify_ doc site works works _without_ the need to edit your existing docs and _without_ building any HTML pages. The rendering is done on the client-side in a single page application, running on _index.html_.
 
-### Structure
+### Struct sbsbsbsbs
 
 Main components of a _Docsify_ site.
 
