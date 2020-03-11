@@ -12,7 +12,7 @@ Steps,
 
 My requirement is to build a docs site with minimal setup to use existing docs directories without restructuring or formatting the docs. I found _Docsify_ is ideal for this.
 ABC
-You can use _Docsify_ with its defaults or very simple tweaks, yet get a UI with menus, themes, mobile functionality and a cover page. And page loads are seamless in the shell as it is a SPA. These things that take more effort and code changes or additions if you want to do them with static-site generators. _Docsify_ also documentation as its main purpose, unlike some other tools.
+You can use _Docsify_ with its defaults or very simple tweaks, yet get a UI with menus, themes, mobile functionality and a cover page. And page loads are seamless in the shell as it is a SPA. These things that take more effort and code changes or additions if you want to do them with static-site generators. _Docsify_ also documentation as its main purpose, unlike some other tools.abc
 
 ![icon](_media/docs_brackets.png)
 
