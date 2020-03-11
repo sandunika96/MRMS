@@ -27,7 +27,7 @@ Main Dashboard includes,
 
 ## Side Menu 
 
-![icon](_media/home.JPG)
+![icon](_media/menu-dashmain.jpg)
 
 Sidebar includes,
 A _Docsify_ doc site works works _without_ the need to edit your existing docs and _without_ building any HTML pages. The rendering is done on the client-side in a single page application, running on _index.html_.
