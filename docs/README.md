@@ -25,7 +25,7 @@ Main Dashboard includes,
 - By entering the bill cycle and click view button to get the above details.
 
 
-## _Docsify_ 
+## Side Menu 
 
 A _Docsify_ doc site works works _without_ the need to edit your existing docs and _without_ building any HTML pages. The rendering is done on the client-side in a single page application, running on _index.html_.
 
