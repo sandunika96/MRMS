@@ -84,61 +84,130 @@ To change the parameters click on the record that you want to change.  Then it w
 2.	Click the update button
 
 
-## Serve a _Docsify_ site locally
+## Update SIN-Multiple Accounts
+![icon](_media/subchangemultipleaccounts.JPG)
 
-Start running a local server to preview a _Docsify_ site. Choose an option below depending on whether you want to install and run Docsify locally or use something you already have installed.
-
--   Run [Docsify CLI](#docsify-cli) web server.
-    ```bash
-    $ # From project root.
-    $ docsify serve docs
-    $ # Shortcut.
-    $ make docs
-    ```
--   Run a Python web server.
-    ```bash
-    $ cd docs
-    $ python3 -m http.server 3000
-    ```
-- Choose something else from this big list - [link](https://gist.github.com/willurd/5720255).
-
-## Quickstart local server
-
-Follow these steps to setup and run an existing _Docsify_ project locally . In this case, we get a local copy of this _Docsify Template_ project and serve it.
-
-### 1. Install
-
-Clone this repo to your machine with one of these commands:
-
-```bash
-$ # Clone with SSH
-$ git clone git@github.com:MichaelCurrin/docsify-template.git
-$ # Clone with HTTPS
-$ git clone https://github.com/MichaelCurrin/docsify-template.git
-```
-
-```bash
-$ cd docsify-template
-```
-
-No installation is needed. When the HTML page is opened in the browser, the _Docsify_ library will be fetched from a CDN by the browser.
-
-### 2. Run
-
-#### 2.1 Serve
-
-Follow [Serve a Docsify site locally](#serve-a-docsify-site-locally) instructions.
-
-#### 2.2 View
-
-Open http://localhost:3000 in the browser.
-
-User notes:
-
-- When viewing the site, if you scroll down far enough you will see a hamburger menu which lets you dynamically open or close the sidebar.
+Update SIN include,								
+1. Bill Cycle
+2. Start walk sequence
+3. Reader code
+4. Daily pack
+5. End walk sequence
+6. After entering the above record and click the “View readings” button, it display the in below screen “7”
+8. Enter New deport 
+9. Enter new substation
+10. Fill the above details and click the Update button
 
 
-## Setup your own docs site
+## Update Packs-Multiple Accounts
+![icon](_media/multiplepacks.JPG)
+
+Update pack include,								
+1. Bill Cycle
+2. Start walk sequence
+3. Reader code
+4. Daily pack
+5. End walk sequence
+6. After entering the above record and click the “View readings” button, it display the in below screen “7”
+8. Enter new reader
+9. Enter new daily pack
+10. Enter start sequence
+11. Fill the above details and click the Update button it will shuffle the work sequence and update the recode 
+
+## Error Corrections(Reading Amendments)
+![icon](_media/errorcorrections.JPG)
+
+To correct the Errors of reading Amendments select on the records that you want to correct.  
+1. Bill Cycle
+2. Reader Code
+3. Pack From
+4.  Pack To
+5. After entering the above details and click the view reject reading button, it display the readings in below screen
+6. If there any changes in the parameters of any pack range it will highlighted with color relevant to that pack range
+•	Green color – Depot/SIN Change
+•	Light Blue – Walk Order/ Pack Change
+•	Gray – SIN/Walk Order/Depot/Pack
+7.  Enter Account Number which rejected readings
+8. Click Filter Grid button it will automatically filter and display records relevant to that Account number.
+9. Display records relevant to that Account number.
+10. After the Error corrections Click on the approve reading Amendments
+
+## Confirm Readings
+![icon](_media/confirmreadings.JPG)
+
+Confirm Readings include,
+1.	Bill Cycle
+2.	Reader Code
+3.	Pack From
+4.	Pack To
+5.	After entering the above details and click the view reading button, it display the readings in below screen (no.8)
+6.	Enter Account Number and click Filter Grid button it will automatically filter and display records relevant to that Account number.
+7.	Select how you want to filter the records it will automatically filter the records and display 
+8.	All the readings related to the above entered details.
+9.	Click for send to approval.
+
+## Meter Journals
+![icon](_media/addmeterjournals.JPG)
+
+Meter Journals include,
+01. Enter Bill Cycle number 
+02. Enter Account Number 
+03. After entering the above details and click the Search button, it display details of the journals in below screen (04)
+05. When click the Add New Meter it display the screen bellow
+06. That screen has three tabs
+1. Meter 01- In this tab can only replace meter journals.
+2. Meter 02- In this tab can add, remove and replace meter journals.
+3. Meter 03- In this tab also can add, remove and replace meter journals.
+07. After do the changes in the display screen click the Save Data button
+
+## Edit Journals
+![icon](_media/editmeterjournals.JPG)
+
+Edit Meter Journals include,
+01. Enter Bill Cycle 
+02. Enter Rear From
+03. Enter Reader To 
+04. After entering the above details click the View Meter Journals button. It display the journals in bellow table.(6) 
+05. If there any changes in the parameters of any Meter journal it will highlighted with color,
+•	Green color – Replace Meter
+•	Light Blue – Add new meter
+•	Gray – Remove Meter
+07. Double click on the meter journal it display the pop up message box. After changing the meter click Update Meter Info button (08)
+
+## Error Corrections(Meter Journals)
+![icon](_media/reject-meter-journals-corrections.JPG)
+
+Error Correction include,
+01. Enter Bill Cycle 
+02. Enter Rear From
+03. Enter Reader To 
+04. After entering the above details click the View Reject Meter Journals button (04). It displays the journals in bellow table. 
+05. If there any changes in the parameters of any meter journal it will highlighted with color relevant to that meter journal
+•	Light Blue – Rejected by journal process
+•	Gray – Rejected by MRMS application
+06. Enter Account Number which rejected meter journals
+07. Click Filter Grid button it will automatically filter and display records relevant to that Account number.
+08. Display records relevant to that Account number.
+Note- If there is an error in the meter journal, when double click on the meter journal open pop up message and display error.
+09. After the Error corrections Click on the approve meter journals button
+
+## Confirm Meter Journals
+![icon](_media/addmeterjournals.JPG)
+
+After adding meter journals, Edit meter journals and Error correcting in the meter journals, process must be confirmed.
+Confirm meter journals,
+01. Enter Bill Cycle 
+02. Enter Rear From
+03. Enter Reader To 
+04. After entering the above details click the View Meter Journals button (04). It displays the journals.
+05. Enter Account Number which confirmed meter journals
+06.  Click Filter Grid button it will automatically filter and display records relevant to that Account number
+07. Enter package from
+08. Enter package to
+09. After entering the above details click the Filter Grade button (10). It displays the journals in the table below.
+11. After the checking the meter journals Click on the approve meter journals button
+
+## 
 
 This tutorial is based on the _Docsify_ [Quickstart](https://docsify.js.org/#/quickstart) guide, but rather than giving snippets of file this tutorial lets you copy entire template files to your project, there are `TODO` items in the templates making it clear what to edit. Plus in the template, there are some useful or pretty configurations which have been set after investigating the configurations guide and trying them out on my own project.
 
