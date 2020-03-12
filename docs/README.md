@@ -59,15 +59,24 @@ Sidebar includes,
 
 
 ## Amendments
-![icon](_media/editdash.jpg)
+![icon](_media/amendments.jpg)
 
-Instructions for creating valid Docsify links in your markdown files.
+Amendments include,
+1.	Bill Cycle
+2.	Reader Code
+3.	Pack From
+4.	Pack To
+5.	After entering the above details and click the view reading button, it display the readings in below screen (no.6)
+6.	All the readings related to the above entered details.
+7.	If there any changes in the parameters of any pack range it will highlighted with color relevant to that pack range
+-	Green color – Depot/SIN Change
+-	Light Blue – Walk Order/ Pack Change
+-	Gray – SIN/Walk Order/Depot/Pack
+8.	Enter Account Number and click Filter Grid button it will automatically filter and display records relevant to that Account number.
+9.	Enter Walk Sequence and click Filter Grid button it will automatically filter and display records relevant to that Walk sequence.
+10.	Select how you want to filter the records it will automatically filter the records and display
 
-The _Docsify_ site is served from the `docs` directory with restrictions on links between files. Therefore you must ensure your markdown files (including the [sidebar](#sidebar)) are valid.
-
-As usual external resource can be linked e.g. `https://example.com`.
-
-**Rules for internal links**
+### Edit Reading Data-Popup Message
 
 Apply these rules to the latter part of markdown URLs such as `[Text](page.md)`.
 
