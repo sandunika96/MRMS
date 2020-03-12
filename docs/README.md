@@ -77,7 +77,7 @@ Amendments include,
 10.	Select how you want to filter the records it will automatically filter the records and display
 
 ### Edit Reading Data-Popup Message
-![icon](_media/popup msg.jpg)
+![icon](_media/popup-msg.jpg)
 
 Apply these rules to the latter part of markdown URLs such as `[Text](page.md)`.
 
