@@ -79,18 +79,10 @@ Amendments include,
 ### Edit Reading Data-Popup Message
 ![icon](_media/popup-msg.jpg)
 
-Apply these rules to the latter part of markdown URLs such as `[Text](page.md)`.
+To change the parameters click on the record that you want to change.  Then it will display,
+1.	A popup menu – here you can change the reading parameters
+2.	Click the update button
 
-- Links must always be relative to the `docs` directory and **not** to the file containing the link.
-    - e.g. `foo.md`, which becomes `/#/foo`.
-    - e.g. `baz/fizz.md`, which becomes `/#/baz/fizz`.
-- Links may contain a leading forward slash. This has no effect so can be ignored.
-    - e.g. `/foo.md`, which becomes `/#/foo`.
-- Links may use an ID.
-    - e.g. To link to heading on the homepage, use `#my-project`, which gets converted to `/#/?id=my-project`.
-    - e.g. To link to another page, use `foo.md#my-project`.
-- Do not reference the `docs` directory in the path. e.g. `/docs/foo.md`
-- Do not refer to content outside of the `docs` directory.  e.g. `../README.md`
 
 ## Serve a _Docsify_ site locally
 
