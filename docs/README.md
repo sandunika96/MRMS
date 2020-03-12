@@ -192,7 +192,7 @@ Note- If there is an error in the meter journal, when double click on the meter 
 09. After the Error corrections Click on the approve meter journals button
 
 ## Confirm Meter Journals
-![icon](_media/addmeterjournals.JPG)
+![icon](_media/confirmmeterjournals.JPG)
 
 After adding meter journals, Edit meter journals and Error correcting in the meter journals, process must be confirmed.
 Confirm meter journals,
@@ -207,49 +207,55 @@ Confirm meter journals,
 09. After entering the above details click the Filter Grade button (10). It displays the journals in the table below.
 11. After the checking the meter journals Click on the approve meter journals button
 
-## 
+## Master Amendments
+[icon](_media/addmaster.JPG)
 
-This tutorial is based on the _Docsify_ [Quickstart](https://docsify.js.org/#/quickstart) guide, but rather than giving snippets of file this tutorial lets you copy entire template files to your project, there are `TODO` items in the templates making it clear what to edit. Plus in the template, there are some useful or pretty configurations which have been set after investigating the configurations guide and trying them out on my own project.
+Master Amendments includes,
+1.	Enter account number.
+2.	Select Amendment type you want.
+3.	If there is a previously added value it will display as the Old Value.
+4.	Add the New Value
+5.	Click add button to add the above details to the grid.
+6.	If you want to delete an amendment added to the grid click this delete button.
+7.	Click the Add Master Amendment button to add the amendments done in the grid.
 
-Follow to steps in this section copy a base structure and configs from this project to your own, then customize them for your needs.
+## Edit Master
+[icon](_media/editmaster.JPG)
 
-### 1. Get this project locally
+If there any changes in Master Amendments, it can be done using Edit Master.
+1. Bill Cycle
+2. Pack Form
+3. Pack To
+4. After entering the above details click the View Meter Journals button.
+5. Enter Accounts number 
+6. After Entering the Accounts number, click on the search button.
+7.  New value will enable to done changes in Amendments 
+8. Click on the Update master Amendments
 
-Clone this template repo to your machine using one of the steps below, so you can use it copy files from later.
+## Error Corrections(Master Amendments)
+[icon](_media/errorcorrectionsmaster.JPG)
 
-```bash
-$ # Clone with SSH
-$ git clone git@github.com:MichaelCurrin/docsify-template.git
-$ # Clone with HTTPS
-$ git clone https://github.com/MichaelCurrin/docsify-template.git
-```
+Error Correction include,
+1. Bill Cycle
+2. Pack From
+3. Pack To
+4. After entering the above details click the View Meter Journals button.
+5. Enter Accounts number
+6. After Entering the Accounts number, click on the search button.
+7. New value will enable to done changes in Amendments.
+8. Click on the Update Master Amendments 
+9. After the click update button click on the Send to Approval Button
 
-```bash
-$ cd docsify-template
-```
+## Confirm Master
+[icon](_media/confirmmaster.JPG)
 
-### 2. Create base structure
-
-1. Navigate to your existing project's `docs` directory.
-    ```bash
-    $ cd <PATH_TO_YOUR_REPO>/docs
-    ```
-2. Copy the copy the contents of the template project's _quickstart_ directory to your own project. Note the trailing dot on the first path in order to include hidden files.
-    ```bash
-    $ cp <PATH_TO_TEMPLATE_REPO>/quickstart/. .
-    ```
-3. View the contents of the docs directory to see what was added. Note that _Docsify_ provides a `404 - Not found` page for a bad URL so you do not need to.
-4. To see what the base site look like, start a server now using a command from the [serve](#21-serve) section. Open the web page URL and keep it open so you can check on it as you make changes in the following sections. If you use the _Docsify_ server, the page will auto refresh on a file save, otherwise you will have to manually refresh.
-
-
-### 3. Configure homepage
-
-Edit your homepage (_docs/README.md_). Complete the `TODO` items, using the suggestions in this section.
-
-- Anything outside of your _docs_ directory will **not** be served. Therefore you might want copy the the content from your project root's _README.md_ to the homepage. After that, you could make the root _README.md_ very short, if you don't want to worry about keeping two identical files in sync.
-- You might want to opt for short homepage file if you prefer to put more documentation in other _docs_ files.
-- Note that you are not required to put in links to other docs file within your homepage file. As that is what the _Docsify_ sidebar. If you do put in any links in your homepage, they must be relative to the _docs_ directory, such as `file.md`. See [Doc links](#doc-links) for more info.
-
+Confirm Master includes,
+1.	Enter Bill Cycle.
+2.	Enter Pack From.
+3.	Enter Pack To.
+4.	After entering the above details and click the view Master Journals button, it display the readings in below screen
+5.	Enter Account Number and click Filter Grid button it will automatically filter and display amendments relevant to that Account number in the below screen(no.6)
+6.	Click Send to approval button.
 
 ### 4. Configure menu structure
 
