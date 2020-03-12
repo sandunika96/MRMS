@@ -3,4 +3,4 @@
 # MRMS USER MANUAL
 
 [GitHub](https://github.com/michaelcurrin/docsify-template/)
-[Getting Started](# USER LOGIN)
+[Getting Started](#user-login)
