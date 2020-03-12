@@ -37,7 +37,8 @@ Sidebar includes,
 4.	Navigate to the customer view page.
 
 
-### Struct sbsbsbsbs
+# EDIT READINGS
+## Dashboard
 
 Main components of a _Docsify_ site.
 
