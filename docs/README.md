@@ -39,18 +39,27 @@ Sidebar includes,
 
 # EDIT READINGS
 ## Dashboard
+![icon](_media/editdash.jpg)
 
-Main components of a _Docsify_ site.
 
-- **cover page** - Optional. Landing page with background color or image and some minimal text.
-- **homepage** - First page that a user sees, after the cover page. This is a content page written in markdown and it could be the only page of your site if you like.
-- **index page** - HTML file base of the app. This includes JS and CSS calls for setting up and styling the _Docsify_ app. Plus JS code which you set to customize the app.
-- **sidebar** - Optional. Describes the menu layout for the left sidebar, using custom ordering and nested structure. _Docsify_ is not aware of directory structure, so this is where you get to define your menu. Alternatively, let _Docsify_ create the menu bar based on the structure of your homepage (_docs/README.md) file - this works best if you only have a single content markdown page or a _navbar_ (top of the screen) to switch between sections.
-- **navbar** - Optional. Describes the menu layout for the top right menu.
+1.	Task bar icons,
+   • Minimize
+   • Maximize
+   • Data Entry User
+   • Close
+2.	Rejected Readings - Readings which are reject after processing
+3.	Pending Approvals (Amendments) – Approvals which are not approved by the approval user level.
+4.	Number of Pack Changes.
+5.	Number of Sin Changes.
+6.	Number of Sin and Pack Changes.
+7.	Number of Meter Journals at that time.
+8.	Number Rejected of Meter Journals.
+9.	Display Changes done in the readings.
+10.	Display Reading Summery.
 
-Once you have that setup in _docs_ directory and have pushed to Github, you can setup Github Pages serving the _docs_ directory. Note: _Docsify_ also works with _Netlify_ as per their docs, but this project just considers the Github Pages case.
 
-### Linking to pages
+## Amendments
+![icon](_media/editdash.jpg)
 
 Instructions for creating valid Docsify links in your markdown files.
 
