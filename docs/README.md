@@ -233,7 +233,7 @@ If there any changes in Master Amendments, it can be done using Edit Master.
 8. Click on the Update master Amendments
 
 ## Error Corrections(Master Amendments)
-[icon](_media/errorcorrectionsmaster.JPG)
+![icon](_media/errorcorrectionsmaster.JPG)
 
 Error Correction include,
 1. Bill Cycle
