@@ -208,7 +208,7 @@ Confirm meter journals,
 11. After the checking the meter journals Click on the approve meter journals button
 
 ## Master Amendments
-[icon](_media/addmaster.JPG)
+![icon](_media/addmaster.JPG)
 
 Master Amendments includes,
 1.	Enter account number.
@@ -220,7 +220,7 @@ Master Amendments includes,
 7.	Click the Add Master Amendment button to add the amendments done in the grid.
 
 ## Edit Master
-[icon](_media/editmaster.JPG)
+![icon](_media/editmaster.JPG)
 
 If there any changes in Master Amendments, it can be done using Edit Master.
 1. Bill Cycle
@@ -247,7 +247,7 @@ Error Correction include,
 9. After the click update button click on the Send to Approval Button
 
 ## Confirm Master
-[icon](_media/confirmmaster.JPG)
+![icon](_media/confirmmaster.JPG)
 
 Confirm Master includes,
 1.	Enter Bill Cycle.
