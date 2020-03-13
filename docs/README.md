@@ -490,13 +490,13 @@ Pack changes report include
 #### JS snippet
 
 Auto formatted.
-
+yuygyguiszdsvsdafyysczmkccccccccccccccccc
 ```markdown
 [example.js](_media/example.js ':include' )
 ```
 
 [example.js](_media/example.js ':include' )
-
+gjsygdujaGUSaugvbjhbjdhxbjchbjc
 #### Markdown snippet
 
 Force to code snippet.
@@ -514,7 +514,7 @@ Force to code snippet.
 - If you embed a URL of a Github file, remember to use the _Raw_ URL otherwise you will get an error.
 
 
-## Docsify CLI
+## Docsify CLIsghiaYGgsdddddddddddddddddddddddddddddddd
 
 _Docsify_ also provides a convenient but optional CLI. It helps you create and serve a Docsify project. In particular, it provides hot reloading by default when using the server - an open localhost webpage will refresh when project files are saved.
 
@@ -535,7 +535,7 @@ Links for installing and using the CLI.
 
 > Creates new docs
 
-Setup an initial _README.md_ (duplicated from project root), _index.html_ and _.nojekyll_ in your a target directory. If you don't want the CLI to do it for you, you can create the files by hand or use this project's _quickstart_ directory to get you going.
+Setup an initial _README.md_ (duplicated from project root), _index.html_ and _.nojekyll_ in your a target directory. If you don't want the CLI to do it for you, you can create thsbhfhghjjsddddddddddddddddddddddddddddddde files by hand or use this project's _quickstart_ directory to get you going.
 
 e.g.
 
@@ -559,7 +559,7 @@ $ docsify serve docs
 
 > Server for SSR
 
-This command is for Server-Side Rendering. I haven't tried this yet.
+This command is for Server-Side Rendering. I dsssssssssssssssssssssssssssssssssssssssssssssshaven't tried this yet.
 
 ## Static site vs SPA
 
