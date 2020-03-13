@@ -263,19 +263,17 @@ Confirm Master includes,
 1.	In the approval user level it will enable this Approve Readings button.
 
 ## Dashboard
-![icon](_media/home.JPG)
+![icon](_media/dashboard.JPG)
 
-You may choose to display the sidebar, but have it populated automatically from headings on a single HTML file - the homepage (_docs/README.md_). This is the way that this project's own docs site is setup.
+Approval Readings Dashboard includes,
+1.	Total number of meter readings related to the bill cycle.
+2.	Total number of meter readings that has completed related to the bill cycle.
+3.	Total number of meter readings remains related to the bill cycle.
+4.	Display number of pending approvals (Reading amendments).
+5.	Display number of Rejections (Reading amendments).
+6.	Display Reading Changes.
+7.	By entering the bill cycle and click view button to get the above details.
 
-This solution is great if you are happy to move all your doc content into a **single** markdown file, as it means not having to worry about manually updating a navigation bar when you docs change. Especially if you have a many files to manage or they are likely to change in name or structure.
-
-To setup auto sidebar:
-
-1. Delete *_sidebar.md*.
-2. Open _index.html_ to edit it.
-3. Set `loadSidebar: false` and save.
-
-Warning: If you go for this option without a configured sidebar, do not leave any links in your _docs/README.md_ which refer to other doc files. Although the link may be valid, once you click on the link, the sidebar on that page will reflect the target page rather than the outline of the _docs/README.md_ page, which is inconsistent and jarring behavior.
 
 #### Custom sidebar
 
