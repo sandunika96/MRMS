@@ -553,9 +553,7 @@ e.g.
 
 ```bash
 $ docsify serve docs
-```
-
-Serves as [localhost:3000/](http://localhost:3000/), or a different port if there is already a _Docsify_ server running.
+```is already a _Docsify_ server running.
 
 #### start
 
