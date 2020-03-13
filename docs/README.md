@@ -258,8 +258,12 @@ Confirm Master includes,
 6.	Click Send to approval button.
 
 # APPROVAL USER FUNCTIONS
-![icon](_media/confirmmaster.JPG)
-#### Auto sidebar
+![icon](_media/home.JPG)
+
+1.	In the approval user level it will enable this Approve Readings button.
+
+## Dashboard
+![icon](_media/home.JPG)
 
 You may choose to display the sidebar, but have it populated automatically from headings on a single HTML file - the homepage (_docs/README.md_). This is the way that this project's own docs site is setup.
 
