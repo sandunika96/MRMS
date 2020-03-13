@@ -333,107 +333,61 @@ Approve Amendments include,
 11.	If you reject an amendment you have to set a remark. (It is mandatory).
 
 
-## 
+## Reading Confirm
+![icon](_media/packcompletion.JPG)
 
-Optionally set a theme color. This affects how some content looks, such as quoted blocks, underlined text and buttons. This will default to theme's default if not set manually. i.e. green for _Vue_ and blue for _Buble_.
+Reading confirms includes,
+01 Pack completion bill cycle
+02. Area cord
+03. Daily pack
+04. Display completed rearing according to daily pack number in the table.
+05. Display, 
+•	Total accounts
+•	Total read accounts
+•	Total missing readings
+06. After all readings are completed in the pack click on the complete pack for reading button.
+07. Display process of the pack completion progress.
 
-```js
-window.$docsify = {
-  themeColor: '#3F51B5',
-};
-```
 
-More on Docsify [theme color](https://docsify.js.org/#/configuration?id=themecolor).
+## Printing Confirm
+![icon](_media/printingcompetion.JPG)
 
-#### 6.2 Themes
+After confirmed the reading can print the reading. It display confirmed packs according to reading confirmed process. The printing confirm includes,
+01 Pack completion bill cycle
+02. Area cord
+03. Daily pack
+04. Display confirmed document in the table.
+05. Display process of the pack completion progress for printing
 
-Find the style which is set in the `<head>` tag, which looks like this.
 
-```html
-<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/<THEME>">
-```
+## End Bill Cycle
+![icon](_media/endcycle.JPG)
 
-Replace the end of URL with one of these four themes:
+1. End Bill Cycle counter, after submit update into new cycle.
+2. Show the reading and printing in front of the Daily pack.
+3. After completing all pack, enable End Bill Cycle button.
 
-- `vue.css`
-- `buble.css`
-- `dark.css`
-- `pure.css`
 
-You can optionally remove `/lib` from the theme URL to get the _uncompressed_ CSS file.
+## Reject Readings
+![icon](_media/endcycle.JPG)
 
-Read more on the _Docsify_ [themes](https://docsify.js.org/#/themes?id=themes) guide.
 
-Note: The _Buble_ theme has sidebar headings which are not distinguished from the sub items. Therefore you can add this to _index.html_ to get bold headings similar. Based on _vue.css_.
+Reject reading include
+1. Bill Cycle
+2. Reader Code
+3. Pack From
+4. Pack To
+5. After entering the above details click the View reject Reading button.
+6. Enter the Account number given the space 
+7. After Entering the Accounts number, click on the filter grid button.
+8. All the reject readings are fill in the grid view.
 
-```html
-<style>
-    .sidebar .sidebar-nav>ul>li {
-        font-weight: 700;
-        margin: 0;
-    }
-</style>
-```
 
-### 7. Advanced configuration
+# REPORTS
+![icon](_media/REPORTShome.JPG)
 
-The configuration steps above already get you a prettier and more usable site in my opinion than the barebones one which the _Docsify_ `init` command or their _Quickstart_ guide gives you. This section covers advanced steps - you may skip these and jump straight to the [Github Pages](#setup-github-pages-site) section.
 
-#### App configuration
 
-You can update the config parameters passed in on the _index.html_ page. There are some useful things there in like adjusting the sidebar levels, putting a logo in the sidebar or setting your root _README.md_ as your homepage. There is even a search bar you can add.
-
-For available parameters, these are documented on the _Docsify_ [Configuration](https://docsify.js.org/#/configuration) page.
-
-For defaults - see _Docsify_ [config.js](https://github.com/docsifyjs/docsify/blob/develop/src/core/config.js) script.
-
-See some values below which are worth considering for the siderbar.
-
-```js
-window.$docsify = {
-  // Maximum Table of Contents (TOC) level. Default value shown here.
-  maxLevel: 6,
-
-  // Add table of contents (TOC) in custom sidebar. Default value shown here. Try a value of 2.
-  subMaxLevel: 0,
-
-  logo: '/_media/icon.svg',
-
-  name: 'docsify'
-}
-```
-
-Change the homepage. These recommendations come from the docs.
-
-```js
-window.$docsify = {
-  // Change to /home.md
-  homepage: 'home.md',
-
-  // Or use the readme in your repo
-  homepage: 'https://raw.githubusercontent.com/docsifyjs/docsify/master/README.md'
-};
-```
-
-#### Plugins
-
-Highlights from the [List of Plugins](https://docsify.js.org/#/plugins?id=list-of-plugins) on the _Docsify_ site.
-- [External script](https://docsify.js.org/#/plugins?id=external-script) - If the script on the page is an external one (imports a js file via src attribute), you'll need this plugin to make it work.
-- [Google Analytics](https://docsify.js.org/#/plugins?id=google-analytics) - Add tracking.
-- [Tabs](https://docsify.js.org/#/plugins?id=tabs) - A docsify.js plugin for displaying tabbed content from markdown.
-
-Also of interest:
-- For pulling in JSON data and not just markdown files:
-    - [bandorko/docsify-variables](https://github.com/bandorko/docsify-variables)
-    - [kissybnts/docsify-json-variables](https://github.com/kissybnts/docsify-json-variables) or on [npm](https://www.npmjs.com/package/docsify-json-variables)
-
-#### Favicon
-
-Optionally customize _index.html_ to point to a custom _favicon_, if you added one.
-
-```html
-<link rel="icon" href="_media/favicon.ico">
-```
 
 ## Setup Github Pages site
 
