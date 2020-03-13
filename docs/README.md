@@ -276,70 +276,64 @@ Approval Readings Dashboard includes,
 
 
 ## Process Meter Journals
-![icon](_media/dashboard.JPG)
+![icon](_media/processmeter.JPG)
 
-You can choose to configure a custom sidebar. This is necessary to link to the multiple doc files.
+Process meter journal include,
+01. Enter Bill cycle
+02. Enter Reading from
+03. Enter Reading to
+04. After entering the above details and click the view Master Journals button, it display the readings in below screen
+05. Enter Account Number and click Filter Grid button it will automatically filter and display meter journal relevant to that meter journal in the below screen (no.9)
+06. Enter Pack from
+07. Enter Pack to
+08. After entering the above details and click the view Filter grid button, it display the readings in below screen
+10. Select Approval Status 
+•	All records
+•	Selected records
+•	Reject selected records
+11. After selecting approval status click on process meter journals button. That button is change according to selected approval status.
+12. Remark- if rejected a meter journal you must put a remark
 
-##### Guidelines
 
-How to setup a sidebar file:
+## Process Master
+![icon](_media/processmaster.JPG)
 
-- The format should be bullet points in markdown format.
-- Each menu item should be a markdown link e.g. `[Name](link)`. An item may exist on the menu without a link - this is useful for grouping items together under a menu heading.
-- The links must be follow restrictions noted above in [Linking to pages](#linking-to-pages). If the doc files change (e.g. are renamed or moved), you need to remember to update the sidebar config.
-- The bullet points may optionally be nested, using indentation. You may create arbitrary indentation in your sidebar, even if all you files are at the same level in the _docs_ directory.
+Process Master include,
+1. Bill Cycle
+2. Pack Form
+3. Pack To
+4. After entering the above details click the View master journal button
+5. Enter the Account number given the space
+6. After Entering the Accounts number, click on the filter grid button.
+8. Select Approve status 
+9. Remarks must fill for the submit process master amendments.
+10. After select relevant details and click on the Process Master Amendments.
 
-Example:
+## Approve Amendments
+![icon](_media/approveamendments.jpg)
 
-[_sidebar.md](https://raw.githubusercontent.com/MichaelCurrin/docsify-template/master/nested_example/_sidebar.md ':include :type=code')
+Approve Amendments include,
+1.	Bill Cycle
+2.	Reader Code
+3.	Pack From
+4.	Pack To
+5.	After entering the above details and click the view reading button, it display the readings in below screen (no.6)
+6.	All the readings related to the above entered details.
+	If there any changes in the parameters of any pack range it will highlighted with color relevant to that pack range
+•	Green color – Depot/SIN Change
+•	Light Blue – Walk Order/ Pack Change
+•	Gray – SIN/Walk Order/Depot/Pack
+7.	Enter Account Number and click Filter Grid button it will automatically filter and display records relevant to that Account number.
+8.	Select how you want to filter the records it will automatically filter the records and display.
+9.	Select how you want to approve or reject the records form select approve status.
+•	Reject selected records – to reject only the selected records
+•	Select all records – to approve or reject all the records
+•	Approve selected records – to approve only the selected records
+10.	Select the status from select approve status and click this button.(it will change according to the status you select form the approve status)
+11.	If you reject an amendment you have to set a remark. (It is mandatory).
 
-##### Setup custom sidebar
 
-1. Ensure `loadSidebar: true` is set in the _index.html_ file.
-    - The value of `true` means `*_sidebar.md*` will be referenced by the app.
-    - The sidebar is already enabled in the quickstart [index.html](https://github.com/MichaelCurrin/docsify-template/blob/master/quickstart/index.html).
-2. Edit the *_sidebar.md* file.
-3. Add items using the guidelines above.
-
-##### Note on Home link
-
-The clickable text above the standard sidebar takes you to the cover page. You can scroll down to the homepage (_docs/README.md_), but there are no links on the page to the homepage. So add a link to the homepage with the first entry above. Note: An alternative is to use the nav bar config for Home button, rather than sidebar config.
-
-```
-- [Home](/#my-app)
-```
-
-NB. The leading forward slash is **required** here for correct behavior. As the anchor tag will be invalid on other pages such as `foo.md` which has path `/#/foo/`).
-
-The link is a reference to an anchor tag on the root URL, where anchor tag refers the ID of the homepage heading element. This ID will be created by _Docsify_. To find it, go to the coverpage, scroll down to the homepage and click on the heading. The URL will be something like `http://localhost:3000/#/?id=my-app`. The part we want is the end e.g. `my-app`.
-
-This is really the text of heading element, which has been made lowercase and hyphenated. Copy this to the sidebar file and prefix it with a hash symbol.
-
-### 5. Configure cover page
-
-The cover page is the first page that a visitor sees before scrolling down to the homepage.
-
-If you want to use it, edit your *docs/_coverpage.md* file and complete the `TODO` items. You can also use this project's [cover page](https://raw.githubusercontent.com/MichaelCurrin/docsify-template/master/docs/_coverpage.md) on Github as a reference.
-
-You can add additional buttons to the bottom of the homepage, but there should be no gaps between the lines in your file. And the last one will be solid while the others will be transparent.
-
-The _Docsify_ site explains how to set a background image or color [here](https://docsify.js.org/#/cover?id=custom-background). A background image should come _after_ the buttons in your file, as _Docsify_ looks for an image there then uses CSS to place the image behind the content and give it faded grey look.
-
-You can delete the cover page and disable it in _index.html_.
-
-#### Image
-
-You could include an image (logo, photo) above your project title. For example, you could do this if you have a file in a *docs/_media* directory.
-
-```
-![icon](_media/logo.svg)
-```
-
-### 6. Configure Style
-
-Edit _index.html_.
-
-#### 6.1 Color
+## 
 
 Optionally set a theme color. This affects how some content looks, such as quoted blocks, underlined text and buttons. This will default to theme's default if not set manually. i.e. green for _Vue_ and blue for _Buble_.
 
