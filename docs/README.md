@@ -275,7 +275,8 @@ Approval Readings Dashboard includes,
 7.	By entering the bill cycle and click view button to get the above details.
 
 
-#### Custom sidebar
+## Process Meter Journals
+![icon](_media/dashboard.JPG)
 
 You can choose to configure a custom sidebar. This is necessary to link to the multiple doc files.
 
