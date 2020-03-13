@@ -257,8 +257,8 @@ Confirm Master includes,
 5.	Enter Account Number and click Filter Grid button it will automatically filter and display amendments relevant to that Account number in the below screen(no.6)
 6.	Click Send to approval button.
 
-### 4. Configure menu structure
-
+# APPROVAL USER FUNCTIONS
+![icon](_media/confirmmaster.JPG)
 #### Auto sidebar
 
 You may choose to display the sidebar, but have it populated automatically from headings on a single HTML file - the homepage (_docs/README.md_). This is the way that this project's own docs site is setup.
