@@ -487,114 +487,18 @@ Pack changes report include
 05. Enter Pack to and click on view readings button (6). It display bellow report
 07. The un-read summary report display account no, name, Daily pack, walk sequence, tariff class. 
 
-#### JS snippet
+# CUSTOMER VIEW
+## Account Balance
+![icon](_media/customerbalance.JPG)
 
-Auto formatted.
-yuygyguiszdsvsdafyysczmkccccccccccccccccc
-```markdown
-[example.js](_media/example.js ':include' )
-```
-
-[example.js](_media/example.js ':include' )
-gjsygdujaGUSaugvbjhbjdhxbjchbjc
-#### Markdown snippet
-
-Force to code snippet.
-
-```markdown
-[_sidebar.md](_coverpage.md ':include :type=code')
-```
-
-[_sidebar.md](_coverpage.md ':include :type=code')
-
-#### Warnings
-
-- Do not put the URL in a bullet point as it will become an ordinary link.
-- Do not put two embed items in a sequence without some characters in between, otherwise you will get a JS error rending the page. Putting an empty line between them is **not** sufficient.
-- If you embed a URL of a Github file, remember to use the _Raw_ URL otherwise you will get an error.
+Account balance includes,
+1.	Enter Account Number and click the View Balance Button to get the Customer Latest Account Balance. 
 
 
-## Docsify CLIsghiaYGgsdddddddddddddddddddddddddddddddd
+## Payment Details
+![icon](_media/customerpayments.JPG)
 
-_Docsify_ also provides a convenient but optional CLI. It helps you create and serve a Docsify project. In particular, it provides hot reloading by default when using the server - an open localhost webpage will refresh when project files are saved.
-
-### Setup
-
-```bash
-$ npm i docsify-cli -g
-```
-
-Links for installing and using the CLI.
-
-- [Docsify Quickstart](https://docsify.js.org/#/quickstart) on _Docsify_ homepage.
-- [Docsify CLI](https://docsifyjs.github.io/docsify-cli) project's docs.
-
-### Commands
-
-#### init
-
-> Creates new docs
-
-Setup an initial _README.md_ (duplicated from project root), _index.html_ and _.nojekyll_ in your a target directory. If you don't want the CLI to do it for you, you can create thsbhfhghjjsddddddddddddddddddddddddddddddde files by hand or use this project's _quickstart_ directory to get you going.
-
-e.g.
-
-```bash
-$ docsify init docs
-```
-
-#### serve
-
-> Run local server to preview site.
-
-Serve the target directory as a docs site locally. This includes hot reload, to refresh the page on file changes. See [serve](#21-serve) options above.
-
-e.g.
-
-```bash
-$ docsify serve docs
-```is already a _Docsify_ server running.
-
-#### start
-
-> Server for SSR
-
-This command is for Server-Side Rendering. I dsssssssssssssssssssssssssssssssssssssssssssssshaven't tried this yet.
-
-## Static site vs SPA
-
-### Server side rendering
-
-Although SEO crawlers can do better at sites like single page application, _Docsify_ is still said not to be SEO-friendly, compared with static sites where all HTML is pre-rendered.
-
-However, _Docsify_ provides the option of pre-rendering all the views as static HTML. This can improve SEO.
-
-See [Server-Side Rendering](https://docsify.js.org/#/ssr) section of the _Docsify_ docs.
-
-### Why not use a static site generator?
-
-_Docsify_ is a SPA, not a static-site generator.
-
-_Jekyll_ and _Hugo_ are excellent options for static site generators. They can use themes suited to documentation and they can build off of a _docs_ directory. If you want to read more about those, see my [resources](https://github.com/MichaelCurrin/static-sites-generator-resources) project.
-
-These are just tools to build a site. What is appropriate depends on your usecase, how much you need to customized the site and how much effort you want to spend on installing/running/maintaining the project.
-
-I find _Docsify_ light to add to a project and to use for new projects. So it is a great fit for me.
-
-A static site generator can be heavy to setup and manage.
-
-There are dependencies to manage - they might have to be upgraded if their are security vulnerabilities or they are no longer available. Such as plugins and themes for _Jekyll_. And plugins for _Hugo_. Plus you probably need a couple of _JavaScript_ or _CSS_ files that either you or a theme added. Such as _Query_. This _Docsify_ project only needs exactly one _JavaScript_ and one _CSS_ file.
-
-There is HTML to build locally and on the remote. While _Docsify_ needs no dependencies to serve a site, _Jekyll_ sites needs `jekyll` installed and _Hugo_ sites need `hugo` available.
-
-A static site needs to to customize it in depth or setup a theme which also takes effort. You may lose or gain functionality when switching between Jekyll themes because they use their own templates and layouts.
-
-You probably have to add _front matter_ to your doc files so they can inherit from layouts and have the correct metadata like title.
-
-As with _Docsify_, you will probably have to create a config file which covers the structure of your project for use in the sidebar.
-
-Unlike building static files with HTML, with with Docsify there is a single page application running off of a _index.html_ - on each request, a markdown file is fetched by the client and rendered as HTML with a theme and menu. The performance will depend more on the server when serving static HTML pages (prebuild and serve page on the client) or on the client when using a single page application (build structure on the client).
-
-Also, the _Docsify_ approach will only work if _JavaScript_ is enabled.
-
-The _Docsify_ site says it supports back to Internet Explorer 11, so that at least helps for a wider audience of users.
+Payment details include 
+01. Enter account number
+02. After entering the account number click on “view payment list button” (3). It display bellow table (4)
+04. The customer latest payment list contain payment amount, cash date, payment status.
