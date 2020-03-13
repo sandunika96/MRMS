@@ -384,61 +384,108 @@ Reject reading include
 
 
 # REPORTS
+## Dashboard
+
 ![icon](_media/REPORTShome.JPG)
 
+## Meter Readings
+![icon](_media/meterreadings.JPG)
+
+Meter Readings include,
+1. Bill Cycle
+2. Reader Code
+3. Pack From
+4. Pack To
+5. After entering the above details click the View Readings button it will display all the meter readings.
+
+## Error Summary(Pack Wise)
+![icon](_media/error-packwise.JPG)
+
+Error Summary (pack wise) include,
+1. Bill Cycle
+2. Reader Code
+3. Pack From
+4. Pack To
+5. After entering the above details click the View Error Summary button, it will display error count if there is an error in pack wise.
+
+## Error Summary(Reader Wise)
+![icon](_media/errorsummary-readerwise.JPG)
+
+Error Summary (Reader Wise) include,
+1. Bill Cycle
+2. Reader Code
+3. Reader To
+4. After entering the above details click the View Error Summary button, it will display error count if there is an error in reader wise.
+
+## Meter Journals
+![icon](_media/meterjournals.JPG)
+
+Meter Journals include,
+1. Bill Cycle
+2. Area
+3. After entering the above details click the View journals button, it will display all the journals related to those details.
+4. Approve Status will be changed,
+•	New Journal – if it is a newly added journal.
+•	Pending Approvals – Before processing the journal.
+•	Process to Billing – processed journal.
+•	Rejected from Billing 
+•	Rejected from Approval Level
+
+## SIN Changes
+![icon](_media/sinchanges.JPG)
+
+SIN changes report include 
+01. Enter area code
+02. Enter bill cycle
+03. Enter area and click on view SIN changes button (4) .It display bellow report,
+05. The SIN changes report display address, reader code, old walk order, new walk order, old pack, new pack and status. The status can be,
+			01. New Entry
+			02. Approved
+			03. Pending Approval 
 
 
+## Pack Changes
+![icon](_media/packchanges.JPG)
 
-## Setup Github Pages site
+Pack changes report include 
+01. Enter area code
+02. Enter bill cycle
+03. Enter area and click on view complete packs button (4). It display bellow report
+05. The pack changes report display address, reader code, old walk order, new walk order, old pack, new pack and status. The status can be,
+			01. New Entry
+			02. Approved
+			03. Pending Approval 
 
-If you followed the steps above, you'll have a locally running docs site.
 
-Now, commit and push the files to Github.
+## Pack Completion
+![icon](_media/packchanges.JPG)
 
-Next, edit your repo's setting on Github. Select the option to serve the `docs` directory of the `master` branch as Github Pages site. When you refresh the settings page, then you will see a link to your site there.
+Pack completion report include 
+01. Enter area code
+02. Enter bill cycle
+03. Enter area and click on view complete packs button (4). It display bellow report
+05. Completed readings for print 
 
-Open the link in the browser.
+## Reading Completion
+![icon](_media/readingcompletion.JPG)
 
+Reading completion summary include,
+01. Enter area code
+02. Enter bill cycle
+03. Enter area and click on view reading summary button (4). It display bellow report
+05. Reading completion summary report include, Total readings, Submitted process summary, unread, confirm for cycle end and is mismatch. This report provides a complete summary of whole area bill cycle and reading full summary.
 
-## Write content
+## Unread Readings
+![icon](_media/unreadreadings.JPG)
 
-This section deals with how to update and add to the content of your doc files.
-
-### Embed
-
-You can embed content such as video, audio, iframes (`.html`), code blocks or even Markdown files.
-
-#### Format
-
-Add the `':include'` parameter in a markdown URL reference. Here is the format:
-
-```markdown
-[filename](url ':include')
-```
-
-The URL could be a local file (e.g. `_media/foo.js`) or a remote URL `https://...`.
-
-If you want to embed a code block, you can use the automatic formatting. But markdown and HTML files need to be marked as a code if you want them as code rather than HTML.
-
-```
-':include :type=code'
-```
-
-See the _Docsify_ [Embed](https://docsify.js.org/#/embed-files) help for forcing types and using fragments.
-
-#### Examples
-
-#### Render markdown
-
-Render markdown as HTML.
-
-```markdown
-[example.md](https://docsify.js.org/_media/example.md ':include')
-```
-
-[example.md](https://docsify.js.org/_media/example.md ':include')
-
-Note: The result is _not_ inside a code block expected. It is inside a quote block because the source content starts with `> `.
+Un-Read summary report includes missing reading in pack.
+Pack changes report include 
+01. Enter area code
+02. Enter bill cycle
+03. Enter reader code
+04. Enter Pack from
+05. Enter Pack to and click on view readings button (6). It display bellow report
+07. The un-read summary report display account no, name, Daily pack, walk sequence, tariff class. 
 
 #### JS snippet
 
