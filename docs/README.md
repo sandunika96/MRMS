@@ -408,6 +408,21 @@ Process Master include,
 9. Remarks must fill for the submit process master amendments.
 10. After select relevant details and click on the Process Master Amendments.
 
+## Process Master
+![icon](_media/valuejournal6.JPG)
+
+Process Master include,
+    1. Bill Cycle
+    2. Pack Form
+    3. Pack To
+    4. After entering the above details click the View master journal button
+    5. Enter the Account number given the space
+    6. After Entering the Accounts number, click on the filter grid button.
+    8. Select Approve status 
+    9. Remarks must fill for the submit process master amendments.
+  10. After select relevant details and click on the Process Master Amendments.
+
+
 ## Approve Amendments
 ![icon](_media/approveamendments.jpg)
 
