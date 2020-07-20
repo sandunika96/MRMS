@@ -454,7 +454,8 @@ Approve Amendments include,
 ![icon](_media/packcompletion.JPG)
 
 Reading confirms includes,
-01 Pack completion bill cycle
+
+01. Pack completion bill cycle
 02. Area cord
 03. Daily pack
 04. Display completed rearing according to daily pack number in the table.
@@ -470,7 +471,8 @@ Reading confirms includes,
 ![icon](_media/printingcompetion.JPG)
 
 After confirmed the reading can print the reading. It display confirmed packs according to reading confirmed process. The printing confirm includes,
-01 Pack completion bill cycle
+
+01.Pack completion bill cycle
 02. Area cord
 03. Daily pack
 04. Display confirmed document in the table.
