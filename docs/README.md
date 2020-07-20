@@ -601,12 +601,30 @@ Pack changes report include
 05. Enter Pack to and click on view readings button (6). It display bellow report
 07. The un-read summary report display account no, name, Daily pack, walk sequence, tariff class. 
 
+## Pending Readings
+![icon](_media/pendingreadings.JPG)
+
+Pending reading summery include, 
+1. view reading summary, after entering area code, bill cycle and area click on “view reading summary button”
+2. Pending reading summary grid view, the grid view show pending readings in yellow color. Without completing whole pack isn’t allow to complete the pack. 
+
+
+## Process Reading Errors
+![icon](_media/processederrorreport.JPG)
+
+1. It display the error report of processed readings related to that bill cycle
+
+## Value J'nls
+![icon](_media/valuejournalreport.JPG)
+
+1. It display the value journal report  related to that bill cycle
+
 # CUSTOMER VIEW
 ## Account Balance
 ![icon](_media/customerbalance.JPG)
 
 Account balance includes,
-1.	Enter Account Number and click the View Balance Button to get the Customer Latest Account Balance. 
+1. Enter Account Number and click the View Balance Button to get the Customer Latest Account Balance. 
 
 
 ## Payment Details
