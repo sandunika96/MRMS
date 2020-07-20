@@ -146,6 +146,8 @@ Error correction popup message includes,
 
 ##### Selection Page
 ![icon](_media/selection.JPG)
+
+
 Error correction popup message includes,
 1. Error correction processed readings grid view, when click on error it shows reading number and date.
 2. change readings, after click on change allow to change meter readings
