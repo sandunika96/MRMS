@@ -458,7 +458,7 @@ Pack changes report include
 
 
 ## Pack Completion
-![icon](_media/packchanges.JPG)
+![icon](_media/packcompletion.JPG)
 
 Pack completion report include 
 01. Enter area code
