@@ -115,7 +115,7 @@ Update pack include,
 11. Fill the above details and click the Update button it will shuffle the work sequence and update the recode 
 
 ## Error Corrections(Processed Readings)
-![icon](_media/error-correction-processed readings.JPG)
+![icon](_media/error-correction-processed_readings.JPG)
 
 Error correction processed reading includes the error reading which are re correct and submit. It includes,
 1.  Bill cycle, enter bill cycle number and click “view error button”
@@ -134,7 +134,7 @@ Error correction popup message includes,
 5 Cancel button
 
 #### Correction Page
-![icon](_media/correction page.JPG)
+![icon](_media/correction_page.JPG)
 
 Error correction popup message includes,
 1 Error correction processed readings grid view, when click on error it shows reading number and date.
