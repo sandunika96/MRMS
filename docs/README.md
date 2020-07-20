@@ -127,31 +127,31 @@ Error correction processed reading includes the error reading which are re corre
 ![icon](_media/popup.JPG)
 
 Error correction popup message includes,
-1 error correction processed readings popup message grid shows details of error
-2 change readings
-3 date
-4 processed  readings button”
-5 Cancel button
+1. error correction processed readings popup message grid shows details of error
+2. change readings
+3. date
+4. processed  readings button”
+5. Cancel button
 
 #### Correction Page
 ![icon](_media/correction_page.JPG)
 
 Error correction popup message includes,
-1 Error correction processed readings grid view, when click on error it shows reading number and date.
-2 change readings, show selected readings meter number
-3 date,  show selected readings meter number
-4 processed  readings button”
-5 Cancel button
+1. Error correction processed readings grid view, when click on error it shows reading number and date.
+2. change readings, show selected readings meter number
+3. date,  show selected readings meter number
+4. processed  readings button”
+5. Cancel button
 
 
 ##### Selection Page
 ![icon](_media/selection.JPG)
 Error correction popup message includes,
-1 Error correction processed readings grid view, when click on error it shows reading number and date.
-2 change readings, after click on change allow to change meter readings
-3 date, after click on change allow to change date
-4 Processed readings button, after doing changes click on “processed readings button”.
-5 Cancel button
+1. Error correction processed readings grid view, when click on error it shows reading number and date.
+2. change readings, after click on change allow to change meter readings
+3. date, after click on change allow to change date
+4.Processed readings button, after doing changes click on “processed readings button”.
+5. Cancel button
 
 
 ## Error Corrections(Reading Amendments)
