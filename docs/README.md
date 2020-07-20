@@ -297,6 +297,65 @@ Confirm Master includes,
 5.	Enter Account Number and click Filter Grid button it will automatically filter and display amendments relevant to that Account number in the below screen(no.6)
 6.	Click Send to approval button.
 
+
+## Enter Value J'nls
+![icon](_media/valuejournal1.JPG)
+
+ Enter value journals includes,
+1.	bill cycle, bill cycle shows number of bill cycle
+2.	Account number , after entering account number click on “ view account info”
+3.	Adjustment type
+4.	Details panel.
+5.	Create value journal button. 
+
+### View Account Info
+![icon](_media/valuejournal2.JPG)
+
+Enter value journals includes,
+1.	bill cycle, bill cycle shows number of bill cycle
+2.	Account number , after entering account number click on “ view account info”
+3.	Adjustment type
+4.	Customer information tab, it shows details of customer according to account number. After checking details can close the tab.
+
+
+### Adjestment Type
+![icon](_media/valuejournal3.JPG)
+
+Adjustment type, there are three adjustment types in edit meter journals,
+1.	Account number , after entering account number click on “ view account info”
+2.	Adjustment type,
+1.	(X)Date only, when select date only then “new readings date” text box is enables and can do changes.
+2.	(Y)Readings only, when select Readings only then “readings” text box is enables and can do changes.
+3.	(Z)Readings and date, when select Readings and date then “readings”  and “new readings date” text boxes are enable and can do changes.
+
+##  Edit Value J'nls
+![icon](_media/valuejournal4.JPG)
+
+Edit meter readings use to correct the errors in the journals. It include, Bill cycle, Area code
+1.	Account number, when entered account number can search the related account and easily do changes
+o	New reading date
+o	New reading
+2.	From date,  the time period of journals
+3.	Billed units – the fee in the bill
+4.	Chargeable units, actual chargeable  fee 
+5.	Billed amount
+6.	Chargeable amount, 
+7.	Billed amount, correct fee in the bill
+8.	Adjustment type, drop down list, 
+o	x- reading error
+o	y-  date error
+o	Z- reading and date error
+9.	Update value journals, after doing changes click on “update value journals button”
+
+##  Confirm Value J'nls
+![icon](_media/valuejournal5.JPG)
+
+Confirm value meter journals include, 
+1.	Account number after enter account number click on “search button”
+2.	Grid view of pending journals, if there any value meter journals for confirmation they display here.
+3.	Confirm value journals, after click on “confirm value journals button” the journal send to the new level.
+
+
 # APPROVAL USER FUNCTIONS
 ![icon](_media/home.JPG)
 
