@@ -369,7 +369,7 @@ After confirmed the reading can print the reading. It display confirmed packs ac
 
 
 ## Reject Readings
-![icon](_media/endcycle.JPG)
+![icon](_media/rejectreadings.JPG)
 
 
 Reject reading include
