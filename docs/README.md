@@ -331,6 +331,7 @@ Adjustment type, there are three adjustment types in edit meter journals,
 ##  Edit Value J'nls
 ![icon](_media/valuejournal4.JPG)
 
+
 Edit meter readings use to correct the errors in the journals. It include, Bill cycle, Area code
 1.	Account number, when entered account number can search the related account and easily do changes
 o	New reading date
