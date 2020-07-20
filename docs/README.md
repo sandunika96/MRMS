@@ -114,6 +114,46 @@ Update pack include,
 10. Enter start sequence
 11. Fill the above details and click the Update button it will shuffle the work sequence and update the recode 
 
+## Error Corrections(Processed Readings)
+![icon](_media/error-correction-processed readings.JPG)
+
+Error correction processed reading includes the error reading which are re correct and submit. It includes,
+1.  Bill cycle, enter bill cycle number and click “view error button”
+2. Account No, enter account number and click “filter grid button” then filter error readings and view them in the grid.
+3. Pack from, pack to
+4. Error readings grid view, when double click on error readings it views error reading details.
+
+### Popup Message
+![icon](_media/popup.JPG)
+
+Error correction popup message includes,
+1 error correction processed readings popup message grid shows details of error
+2 change readings
+3 date
+4 processed  readings button”
+5 Cancel button
+
+#### Correction Page
+![icon](_media/correction page.JPG)
+
+Error correction popup message includes,
+1 Error correction processed readings grid view, when click on error it shows reading number and date.
+2 change readings, show selected readings meter number
+3 date,  show selected readings meter number
+4 processed  readings button”
+5 Cancel button
+
+
+##### Selection Page
+![icon](_media/selection.JPG)
+Error correction popup message includes,
+1 Error correction processed readings grid view, when click on error it shows reading number and date.
+2 change readings, after click on change allow to change meter readings
+3 date, after click on change allow to change date
+4 Processed readings button, after doing changes click on “processed readings button”.
+5 Cancel button
+
+
 ## Error Corrections(Reading Amendments)
 ![icon](_media/errorcorrections.JPG)
 
